@@ -115,3 +115,5 @@ const seedDatabase = async () => {
 };
 
 connectDB().then(() => seedDatabase());
+
+
